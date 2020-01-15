@@ -87,7 +87,14 @@
       "required": true,
       "helpMarkDown": "Optionally supply the path to singtool.",
       "visibleRule": "signToolLocationMethod = location"
-    }
+    },
+    {
+      "name": "signToolDebugMode",
+      "type": "boolean",
+      "label": "Use /debug mode in the signtool.exe",
+      "required": false,
+      "defaultValue": "false"
+    }  
   ],
   "prejobexecution": {
     "Node": {
